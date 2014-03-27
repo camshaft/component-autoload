@@ -55,7 +55,7 @@ exports = module.exports = function(conf) {
 
       scan([
         scripts + '/**.js',
-        partials + '/**.(jade|html)'
+        partials + '/**.+(jade|html)'
       ], function(err, files) {
         if (err) return done(err);
 
