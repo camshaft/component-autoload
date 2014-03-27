@@ -1,0 +1,28 @@
+{
+  "name": "component-autoload",
+  "version": "0.1.0",
+  "description": "Autoloader for poe apps",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camshaft/component-autoload.git"
+  },
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camshaft/component-autoload/issues"
+  },
+  "homepage": "https://github.com/camshaft/component-autoload",
+  "dependencies": {
+    "batch": "^0.5.0",
+    "envs": "^0.1.4",
+    "glob": "^3.2.9",
+    "unique-concat": "^0.2.2"
+  }
+}

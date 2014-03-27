@@ -1,0 +1,11 @@
+{
+  "name": "app",
+  "repo": "test/app",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [],
+  "main": "public/javascripts/index.js",
+  "dependencies": {},
+  "development": {},
+  "license": "MIT"
+}
